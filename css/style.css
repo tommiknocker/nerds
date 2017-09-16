@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 1440px;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.main-list,
+.sevices-list {
+  list-style: none;
+}
