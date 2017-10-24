@@ -131,29 +131,32 @@
         <a class="logo-image" href="#">
           <img src="img/logo-1.png" alt="Лого HTML Academy" height="68" width="199">
         </a>
-        <a class="logo-image divider" href="#">
+        <span class="divider"></span>
+        <a class="logo-image" href="#">
           <img src="img/logo-2.png" alt="Лого Бородинский" height="87" width="209">
         </a>
-        <a class="logo-image divider" href="#">
+        <span class="divider"></span>
+        <a class="logo-image " href="#">
           <img src="img/logo-3.png" alt="Лого Pink" height="52" width="185">
         </a>
-        <a class="logo-image divider" href="#">
+        <span class="divider"></span>
+        <a class="logo-image" href="#">
           <img src="img/logo-4.png" alt="Лого Mishka" height="84" width="173">
         </a>
       </div>
 
       <section class="modal-form-unit">
-        <form class="modal-form" action="#" method="post">
+        <form class="modal-form" action="https://echo.htmlacademy.ru/" method="post">
           <button class="modal-form-close" type="button">Закрыть</button>
           <h2 class="modal-form-title">Напишите нам</h2>
           <div class="user-data">
             <div class="user-data-name user-wrap">
               <label for="username">Ваше имя:</label>
-              <input  class="user-input" type="text" id="username" name="name" placeholder="Представьтесь, пожалуйста">
+              <input  class="user-input" type="text" id="name" name="username" placeholder="Представьтесь, пожалуйста" required>
             </div>
             <div class="user-data-mail user-wrap">
               <label for="e-mail">Ваш e-mail:</label>
-              <input class="user-input" type="text" id="e-mail" name="email" placeholder="Для отправки ответа">
+              <input class="user-input" type="email" id="e-mail" name="email" placeholder="Для отправки ответа" required>
             </div>
           </div>
           <div class="user-letter user-wrap">
@@ -178,6 +181,7 @@
         <p class="telephone">тел. +7 (812) 275-75-75</p>
         <a class="contact-us-btn" href="#">Напишите нам</a>
       </section>
+      <div class="marker"></div>
     </div>
   </main>
 
